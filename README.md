@@ -4,6 +4,8 @@ A parallel version of ofxTSNE.
 
 It simply wraps [Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE) and should be API compatible with [ofxTSNE](https://github.com/genekogan/ofxTSNE).
 
+It offers 2-5x speed boost for the standard ofxTSNE.
+
 ## Instructions
 ### OSX
 [Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE) uses OpenMP, which is unsupported by default on OSX (at this point at least). In order to run on OSX, do the following:
