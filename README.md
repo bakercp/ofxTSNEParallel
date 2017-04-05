@@ -16,3 +16,11 @@ It simply wraps [Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE
 5. `make -j4 -s`
 6. `make run` to run the example.
 
+### Linux
+
+1. It should run. :smile:
+
+### Window
+
+1. I doubt it will run without some work.
+
