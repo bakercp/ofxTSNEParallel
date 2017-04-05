@@ -16,3 +16,7 @@ osx:
 	ADDON_CFLAGS += -fopenmp -I/usr/local/opt/llvm/include
 	PROJECT_CXX += /usr/local/opt/llvm/bin/clang++
 	PROJECT_CC += /usr/local/opt/llvm/bin/clang
+
+linux64:
+	ADDON_LDFLAGS += -lgomp
+	ADDON_CFLAGS += -fopenmp
