@@ -6,6 +6,8 @@ It simply wraps [Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE
 
 It offers 2-5x speed boost for the standard ofxTSNE.
 
+It is limited to 2D embeddings.
+
 ## Instructions
 ### OSX
 [Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE) uses OpenMP, which is unsupported by default on OSX (at this point at least). In order to run on OSX, do the following:
