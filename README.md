@@ -2,11 +2,13 @@
 
 A parallel version of ofxTSNE.
 
-It simply wraps [Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE) and should be API compatible with [ofxTSNE](https://github.com/genekogan/ofxTSNE).
+It simply wraps a slightly modified version of [Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE) and should be API compatible with [ofxTSNE](https://github.com/genekogan/ofxTSNE).
 
 It offers 2-5x speed boost for the standard ofxTSNE.
 
 It is limited to 2D embeddings.
+
+Parallel acceleration applies to the tree-building and refinement portions of the algorithm. The initial segment is still single threaded.
 
 ## Instructions
 ### OSX
