@@ -18,9 +18,9 @@ Parallel acceleration applies to the tree-building and refinement portions of th
 2. Install `llvm` via `brew install llvm`.
 3. Run the example via the `Makefile` system (Xcode is not currently working).
   - Special flags are listed in the `addon_config.mk` file that allows the `Makefile` to use the appropriate brew-installed OpenMP-compatible `llvm` compiler.
-4. `cd example/`
-5. `make -j4 -s`
-6. `make run` to run the example.
+  - `cd example/`
+  - `make -j4 -s`
+  - `make run` to run the example.
 
 ### Linux
 
