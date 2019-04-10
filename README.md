@@ -16,11 +16,22 @@ Parallel acceleration applies to the tree-building and refinement portions of th
 
 1. Install [homebrew](https://brew.sh/).
 2. Install `llvm` via `brew install llvm`.
-3. Run the example via the `Makefile` system (Xcode is not currently working).
-  - Special flags are listed in the `addon_config.mk` file that allows the `Makefile` to use the appropriate brew-installed OpenMP-compatible `llvm` compiler.
-  - `cd example/`
-  - `make -j4 -s`
-  - `make run` to run the example.
+
+#### Makefile (Command Line)
+
+Special flags are listed in the `addon_config.mk` file that allows the `Makefile` to use the appropriate brew-installed OpenMP-compatible `llvm` compiler.
+
+  1. `cd example/`
+  2. `make -j4 -s`
+  3. `make run` to run the example.
+
+#### Xcode
+
+Xcode requires configuration in addition to using the standard openFrameworks Project Generator app. Thanks @crecord.
+
+  1. See instructions [here](http://antonmenshov.com/2017/09/09/clang-openmp-setup-in-xcode/) and [discussion](https://github.com/bakercp/ofxTSNEParallel/issues/1).
+
+###
 
 ### Linux
 
